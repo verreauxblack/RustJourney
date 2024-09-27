@@ -49,3 +49,6 @@ cd path/to/project
 
 # Build and run the project
 cargo run
+
+# Build command for windows
+cargo build --release --target=x86_64-pc-windows-gnu --verbose
